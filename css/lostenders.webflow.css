@@ -1015,7 +1015,11 @@ p {
     padding-left: 15px;
   }
   .featured-title {
+    margin-top: 20px;
     text-align: center;
+  }
+  .album-columns {
+    margin-bottom: 0px;
   }
   .album-list {
     margin-bottom: 60px;
@@ -1083,6 +1087,9 @@ p {
   }
   .caption {
     text-align: center;
+  }
+  .album-column {
+    margin-bottom: 60px;
   }
 }
 
