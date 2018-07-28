@@ -911,6 +911,11 @@ p {
   font-size: 15px;
 }
 
+.tour-location-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
 @media (max-width: 991px) {
   .nav-menu {
     padding-top: 18px;
