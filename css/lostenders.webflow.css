@@ -59,7 +59,7 @@ p {
 
 .nav-link {
   padding: 26px 13px;
-  color: hsla(0, 0%, 100%, .62);
+  color: hsla(0, 0%, 100%, 0.62);
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 1px;
@@ -89,8 +89,7 @@ p {
 
 .hero {
   height: 100vh;
-  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 100%, rgba(0, 0, 0, .46) 1%, rgba(0, 0, 0, .82) 91%), url('../images/band2.jpeg');
-  background-image: radial-gradient(circle farthest-corner at 50% 100%, rgba(0, 0, 0, .46) 1%, rgba(0, 0, 0, .82) 91%), url('../images/band2.jpeg');
+  background-image: radial-gradient(circle farthest-corner at 50% 100%, rgba(0, 0, 0, 0.46) 1%, rgba(0, 0, 0, 0.82) 91%), url('../images/band2.jpeg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -118,7 +117,7 @@ p {
 }
 
 .hero-subtitle {
-  color: hsla(0, 0%, 100%, .7);
+  color: hsla(0, 0%, 100%, 0.7);
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 1px;
@@ -126,8 +125,8 @@ p {
 }
 
 .subpage-background {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/photo-1442975433132-cb9580b88538.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/photo-1442975433132-cb9580b88538.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('../images/photo-1442975433132-cb9580b88538.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/photo-1442975433132-cb9580b88538.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, repeat-y;
@@ -224,7 +223,7 @@ p {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(0, 0, 0, 0.85);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -249,7 +248,7 @@ p {
 .track-listing-row {
   margin-bottom: 45px;
   padding-top: 20px;
-  border-top: 1px solid hsla(0, 0%, 60%, .35);
+  border-top: 1px solid hsla(0, 0%, 60%, 0.35);
 }
 
 .featured-track {
@@ -326,7 +325,7 @@ p {
 .contact-row {
   padding-top: 58px;
   padding-bottom: 58px;
-  border-top: 1px solid hsla(0, 0%, 60%, .35);
+  border-top: 1px solid hsla(0, 0%, 60%, 0.35);
   text-align: center;
 }
 
@@ -416,9 +415,9 @@ p {
 
 .button {
   padding: 11px 19px;
-  border: 1px solid rgba(248, 199, 41, .7);
+  border: 1px solid rgba(248, 199, 41, 0.7);
   background-color: transparent;
-  color: rgba(248, 199, 41, .7);
+  color: rgba(248, 199, 41, 0.7);
   font-size: 14px;
 }
 
@@ -441,7 +440,7 @@ p {
 .button.contact {
   padding-right: 29px;
   padding-left: 29px;
-  background-color: rgba(248, 199, 41, .7);
+  background-color: rgba(248, 199, 41, 0.7);
 }
 
 .content-wrapper {
@@ -450,13 +449,13 @@ p {
 
 .footer-text {
   margin-top: 13px;
-  color: hsla(0, 0%, 100%, .43);
+  color: hsla(0, 0%, 100%, 0.43);
 }
 
 .song-list-item {
   padding-top: 19px;
   padding-bottom: 19px;
-  border-top: 1px solid hsla(0, 0%, 100%, .28);
+  border-top: 1px solid hsla(0, 0%, 100%, 0.28);
   text-align: center;
 }
 
@@ -487,7 +486,7 @@ p {
 .venue-list-item {
   padding-top: 5px;
   padding-bottom: 5px;
-  border-top: 1px solid hsla(0, 0%, 100%, .3);
+  border-top: 1px solid hsla(0, 0%, 100%, 0.3);
 }
 
 .photo-list {
@@ -502,7 +501,7 @@ p {
 .photo {
   margin-bottom: 18px;
   border-radius: 5px;
-  box-shadow: 0 1px 50px 0 rgba(0, 0, 0, .51);
+  box-shadow: 0 1px 50px 0 rgba(0, 0, 0, 0.51);
 }
 
 .field {
@@ -512,12 +511,12 @@ p {
 .input {
   margin-bottom: 20px;
   border-style: none;
-  background-color: hsla(0, 0%, 40%, .64);
+  background-color: hsla(0, 0%, 40%, 0.64);
   color: #fff;
 }
 
 .input:focus {
-  box-shadow: 0 0 0 1px hsla(0, 0%, 100%, .77);
+  box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0.77);
 }
 
 .input.textarea {
@@ -526,7 +525,7 @@ p {
 
 .success {
   padding-top: 29px;
-  background-color: rgba(30, 187, 0, .35);
+  background-color: rgba(30, 187, 0, 0.35);
 }
 
 .paragraph {
@@ -921,7 +920,7 @@ p {
     padding-top: 18px;
     padding-bottom: 18px;
     border-top: 1px solid #000;
-    background-color: rgba(0, 0, 0, .85);
+    background-color: rgba(0, 0, 0, 0.85);
   }
   .nav-link {
     padding-top: 16px;
@@ -941,7 +940,7 @@ p {
   }
   .menu-button {
     padding: 20px 0px 20px 20px;
-    color: hsla(0, 0%, 100%, .62);
+    color: hsla(0, 0%, 100%, 0.62);
     font-size: 25px;
     line-height: 22px;
   }
